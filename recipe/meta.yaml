@@ -1,5 +1,5 @@
 {% set name = "espnet-tts-frontend" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/espnet/espnet_tts_frontend/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 949935ded31327ecd9b80fcfac4c5eedfedcc978d7a6923a8c17b19d165e39d4
+  sha256: 36ef6f9a86b62711fc163a21b3121cc164d29f82322722e3085a987c9134dc31
 
 build:
   noarch: python
